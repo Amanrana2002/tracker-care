@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/stylesheet.css">
+    <script src="https://www.gstatic.com/firebasejs/8.2.7/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.2.7/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-database.js"></script>
+    <title>Take Care Tracker</title>
+</head>
+<body>
+    <main>
+        <section class="background-image">
+            <lottie-player src="https://assets6.lottiefiles.com/packages/lf20_rainwag9.json"  background="transparent"  speed="1"  style="width: 90%;"  loop autoplay></lottie-player>
+        </section>
+        <section class="take-care-form">
+            <h1>TAKE CARE</h1>
+            <form id="loginForm" action="">
+                <p><img src="assests/mail.svg" alt=""><input type="mail" id="email" placeholder="alma.lawson@example.com"></p>
+                <p><img src="assests/password.svg" alt=""><input type="password" id="password" placeholder="********"></p>
+                <h4 id="error"></h4>
+                <input type="submit" id="login-button" value="Login">
+                <input type="submit" id="signup-button" style="background-color: #212E55;" value="Signup">
+            </form>
+        </section>
+    </main>
+    <script src="js/script.js" type="module"></script>
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+</body>
+</html>
+
+
+<!-- CRUD operation is nothing but read, write, update and delete operations -->
