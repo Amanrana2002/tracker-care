@@ -73,7 +73,7 @@ main {
 
 .take-care-form form input[type=submit] {
   width: 100%;
-  padding: 12px 100px;
+  padding: 12px 10px;
   margin-bottom: 10px;
   font-family: 'Poppins';
   font-weight: 600;
